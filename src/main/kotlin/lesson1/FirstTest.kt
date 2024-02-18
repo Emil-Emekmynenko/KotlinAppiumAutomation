@@ -12,6 +12,7 @@ import java.net.URL
 class FirstTest() {
     private var driver: AndroidDriver<MobileElement>? = null
 
+
     @Before
     fun setUp() {
         val capabilities = DesiredCapabilities()
